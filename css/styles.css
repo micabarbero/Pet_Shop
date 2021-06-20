@@ -1,0 +1,139 @@
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+.texto-superior{
+    background-color: black;
+    color: white ;
+    width: cover ;
+}
+/**LOGO**/
+.logo1{
+    color: black;
+}
+.logo2{
+    color:white;
+}
+/**LOGO**/
+
+.headertop{
+    background-color: #F0A83E;
+    height: 100px;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menu{
+    background-color: #F0A83E;
+    color: white; 
+    font-size: 20px;
+    text-decoration: none;
+}
+/*HEROE*/ 
+.heroe{
+background-color: beige;
+background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+background-size: cover;
+height: 409px;
+}
+
+.placer{
+    font-size: 40px;
+    text-align: right;
+}
+.comederosendto{
+    font-size: 16px;
+    text-align: right;
+}
+.botoncomedero{ 
+    text-align: right;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.h2{
+    font-size: 20px;
+    text-align: center;
+}
+/*FIN HEROE*/
+
+/*PRODUCTOS DESTACADOS*/
+.patitas{
+    font-size: 100px; 
+    color: #F0A83E;
+    text-align: center;
+}
+.tituloproductos{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.subtituloproductos{
+    font-size: 15px ;
+    font-weight: 400;
+    text-align: center;
+}
+.nombreproducto{
+    font-size: 15px;
+    font-weight: 500;
+    font-weight: bold;
+    text-align: center;
+}
+.precioproducto{
+    font-size: 15px ;
+    color:#F0A83E;
+    text-align: center;
+}
+.productos{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/**FIN PRODUCTOS**/
+
+/**FOOTER**/
+.logofrontcat2{
+    font-size:20px;
+    text-align: center;
+}
+
+.logoa{
+    color: white;
+}
+.logob{
+    color: #F0A83E;
+}
+
+footer{
+    font-family: Roboto;
+}
+.footertop{
+    background-color: #3C2313;
+    height: 490px;
+}
+.iconosfooter{
+    color: white;
+    font-size: 30px; 
+    margin-left: 2cm;
+}
+.h3footer{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 2cm;
+}
+.textofooter{
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 2cm;
+}
+.footerbottom{
+    background-color: black;
+    color: white;
+    font-size: 10px ;
+    text-align: center;
+}
+/**FIN FOOTER**/

@@ -5,54 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop FrontCat&Dog</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel= "stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header>
-        <div>
-        <span>Grandes ofertas en comederos</span>
-        <span>Español</span> <span>ARG</span>
-        </div>
-        <h1>
-        <img src="/PetShop/img/Cat.png" alt="Dibujo de gato".>FrontCat&Dog<img src="/PetShop/img/Dog.png" alt="Dibujo de perro">
+    <div class="texto-superior">
+    <span>Grandes ofertas en comederos</span>
+    <span>Español</span> <span>ARG</span>
+    </div>
+    
+    <div class="headertop"> 
+    <h1>
+    <img src="/img/Cat.png" alt="Dibujo de gato"><span class="logo1">Front</span><span class="logo2">Cat&Dog</span><img src="/img/Dog.png" alt="Dibujo de perro">
     </h1>
-    <nav> 
+    <nav class="menu"> 
         <ul>
-            <li><img src="/PetShop/img/pawprint 1.png" alt="Huellita">Categorías</li>
-            <li><img src="/PetShop/img/pawprint 1.png" alt="Huellita">Pets</li>
-            <li><img src="/PetShop/img/pawprint 1.png" alt="Huellita">Nosotros</li>
-            <li><img src="/PetShop/img/pawprint 1.png" alt="Huellita">Contactanos</li>
+            <li><img src="img/pawprint 1.png" alt="Huellita">Categorías</li>
+            <li><img src="img/pawprint 1.png" alt="Huellita">Pets</li>
+            <li><img src="img/pawprint 1.png" alt="Huellita">Nosotros</li>
+            <li><img src="img/pawprint 1.png" alt="Huellita">Contactanos</li>
         </ul>
     </nav>
+    </div>
     </header>
-    
-    <section>
-        <img src="/PetShop/img/bowl-and-pet-daities-on-green-background 1.png" alt="Bowl con huesitos">
-        <h2>¡Es un placer tenerte aquí! </h2>
-        <p>¡Comederos en descuento!</p>
-        <a>Comederos</a>
+
+    <section class="heroe">
+        <h2 class="placer">¡Es un placer tenerte aquí! </h2>
+        <p class="comederosendto">¡Comederos en descuento!</p>
+        <a class="botoncomedero">Comederos</a>
     </section>
+    
+    <!--PRODUCTOS DESTACADOS-->
+    <div>
+    <section class="productosdestacados">
+        <p class="patitas"><i class="fas fa-paw"></i></p>
+        <h2 class="tituloproductos">Productos Destacados</h2>
+        <p class="subtituloproductos">Comederos - Accesorios - Comida</p>
+    </section>
+    </div>
+
     <section>
-        <img src="/PetShop/img/pawprint naranja.png" alt="Huellita de perro naranja">
-        <h2>Productos Destacados</h2>
-        <p>Comederos - Accesorios - Comida</p>
     <div>
-        <img src="/PetShop/img/churrasquito.png" alt="Juguete churrasquito">
-        <p>Juguete Churrasquito</p>
-        <p>$150</p>
+        <img src="/img/churrasquito.png" alt="Juguete churrasquito">
+        <p class="nombreproducto">Juguete Churrasquito</p>
+        <p class="precioproducto">$150</p>
+    </div>
+
+    <div>
+        <img src="/img/comedero.png" alt="Comedero">
+        <p class="nombreproducto">Comedero para perro</p>
+        <p class="precioproducto">$250</p>
     </div>
     <div>
-        <img src="/PetShop/img/comedero.png" alt="Comedero">
-        <p>Comedero para perro</p>
-        <p>$250</p>
-    </div>
-    <div>
-        <img src="/PetShop/img/Huesito.png" alt="Juguete huesito">
-        <p>Juguete Huesito</p>
-        <p>$650</p>
+        <img src="/img/Huesito.png" alt="Juguete huesito">
+        <p class="nombreproducto">Juguete Huesito</p>
+        <p class="precioproducto">$650</p>
     </div>
 </section>
+
+<!--FOOTER-->
 <footer>
-    <!--Probando-->
-    <p>Todos los derechos reservados FrontEnd</p>
+    <div class="footertop">
+        <div class="logofrontcat2"><img src="/img/Cat.png" alt="Dibujo de gato"><span class="logoa">Front</span><span class="logob">Cat&Dog</span><img src="/img/Dog.png" alt="Dibujo de perro"></div>
+        <div class="Localidad">
+        <p class="iconosfooter"><i class="fas fa-map-marker-alt"></i></p>
+        <p class="h3footer">Localidad</p>
+        <p class="textofooter">Calle - provincia</p>
+        </div>
+        <div class="telefono">
+        <p class="iconosfooter"><i class="fas fa-phone"></i></p>
+        <p class="h3footer">Teléfono</p>
+        <p class="textofooter">123-456-789</p>
+        </div>
+        <div class="correo">
+        <p class="iconosfooter"><i class="far fa-envelope"></i></p>
+        <p class="h3footer">Correo Electrónico</p>
+        <p class="textofooter">consultas@frontcatdog.com.ar</p>
+        </div>
+    <div class="footerbottom">
+        <p>Todos los derechos reservados Front End</p>
+    </div>
 </footer>
 </html>
