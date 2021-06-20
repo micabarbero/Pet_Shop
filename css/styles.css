@@ -18,7 +18,7 @@ font-family: 'Roboto', sans-serif;
 
 .headertop{
     background-color: #F0A83E;
-    height: 100px;
+    height: 140px;
     font-family: "Roboto";
     font-size: 20px;
     font-weight: 700;
@@ -28,8 +28,9 @@ font-family: 'Roboto', sans-serif;
     background-color: #F0A83E;
     color: white; 
     font-size: 20px;
-    text-decoration: none;
+    list-style-type: none;
 }
+
 /*HEROE*/ 
 .heroe{
 background-color: beige;
