@@ -1,57 +1,98 @@
-body{
+*{
 font-family: 'Roboto', sans-serif;
+box-sizing: border-box;
+margin: 0;
+}
+
+img{
+    max-width: 100%;
 }
 
 .texto-superior{
     background-color: black;
     color: white ;
     width: cover ;
+    display: flex;
+    justify-content: space-between;
 }
-/**LOGO**/
-.logo1{
-    color: black;
-}
-.logo2{
-    color:white;
-}
-/**LOGO**/
 
-.headertop{
+.logo{
+    height: auto;
+    padding: 10px;
+}
+
+.header-container{
     background-color: #F0A83E;
-    height: 140px;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
 }
 
 .menu{
-    background-color: #F0A83E;
     color: white; 
     font-size: 20px;
+}
+
+ul{
     list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
 }
 
-/*HEROE*/ 
+li{
+    padding: 10px;
+}
+
+/* START HEROE*/ 
+
 .heroe{
-background-color: beige;
-background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
-background-size: cover;
-height: 409px;
+    background-color: beige;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    height: 450px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
 }
 
-.placer{
-    font-size: 40px;
-    text-align: right;
+
+.textoheroe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
-.comederosendto{
+
+.tituloheroe{
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+.subtituloheroe{
     font-size: 16px;
-    text-align: right;
+    text-align: center;
+    padding: 10px;
 }
 .botoncomedero{ 
-    text-align: right;
+    text-align: center;
     font-size: 16px;
     color: white;
     text-transform: uppercase;
+    background-color: #F0A83E;
+    padding: 10px;
+    ;
+}
+
+a{
+    color:white;
+    text-decoration: none;
 }
 
 .h2{
@@ -59,6 +100,7 @@ height: 409px;
     text-align: center;
 }
 /*FIN HEROE*/
+
 
 /*PRODUCTOS DESTACADOS*/
 .patitas{
@@ -76,16 +118,35 @@ height: 409px;
     font-weight: 400;
     text-align: center;
 }
+
+/*FIN TITULO PRODUCTOS DESTACADOS*/
+
+.productos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.foto-producto-precio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+
+}
+
 .nombreproducto{
     font-size: 15px;
     font-weight: 500;
     font-weight: bold;
     text-align: center;
+    padding: 10px;
 }
 .precioproducto{
     font-size: 15px ;
     color:#F0A83E;
     text-align: center;
+    padding: 10px;
 }
 .productos{
     align-content: center;
@@ -94,47 +155,41 @@ height: 409px;
 }
 /**FIN PRODUCTOS**/
 
-/**FOOTER**/
-.logofrontcat2{
-    font-size:20px;
-    text-align: center;
-}
 
-.logoa{
-    color: white;
-}
-.logob{
-    color: #F0A83E;
-}
+/**FOOTER**/
 
 footer{
-    font-family: Roboto;
-}
-.footertop{
     background-color: #3C2313;
-    height: 490px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.footertop-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
 .iconosfooter{
     color: white;
-    font-size: 30px; 
-    margin-left: 2cm;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
 }
-.h3footer{
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    margin-left: 2cm;
+
+.titulofooter{
+    color:white;
+    font-size:20px;
+    padding: 10px;
 }
+
 .textofooter{
-    color: #8A8787;
-    font-size: 10px;
-    font-weight: 700;
-    margin-left: 2cm;
-}
-.footerbottom{
-    background-color: black;
-    color: white;
-    font-size: 10px ;
-    text-align: center;
+    color: grey;
+    font-size: 0.5rem;
 }
 /**FIN FOOTER**/
