@@ -54,6 +54,8 @@ nav ul li{
 
 nav ul li::before{
     content: "\f1b0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     padding-left: 10px;
 }
 /* START HEROE*/ 
@@ -189,7 +191,6 @@ a{
 
 .formulario{
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .container-form{
